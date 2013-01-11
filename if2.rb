@@ -5,7 +5,7 @@ while command != 'exit'
   puts command
   command = gets.chomp
 else
-  puts 'おうむ返しスクリプトです。'
+  puts 'おうむ返しスクリプトの実行中です。'
   puts 'コマンドを入力して下さい(終了するには exit と入力してください)'
   command = gets.chomp
  end
